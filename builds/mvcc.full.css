@@ -103,7 +103,9 @@ dd {
 .o-label,
 .o-btn,
 .c-sect-header,
-.c-sect-footer {
+.c-sect-banner,
+.u-bg-header,
+.u-bg-banner {
 	color: #fff;
 }
 
@@ -224,7 +226,9 @@ h6 {
  */
 
  .u-hero {
+	font-family: 'Bitter', sans-serif; 	
     font-size: 3.875em;
+	letter-spacing: -2px;
     line-height: 1.03226;
 }
 /* 
@@ -672,6 +676,76 @@ label {
 
 .o-tabs--xl > li > a {
 	padding: 4.5rem;
+}
+/* 
+   #dock
+   ========================================================================== */
+
+/**
+ * The dock object snaps content to a side of the page.
+ *
+ * Usage:
+ *
+ * <div class="o-dock">
+ *
+ * </div>
+ */
+
+.o-dock {
+	position: fixed;
+	z-index: 1;
+}
+
+/* 
+   #dock--t
+   ========================================================================== */
+
+/**
+ * Dock to the top.
+ */
+
+.o-dock--t { 
+	width: 100%; 
+	top: 0; 
+}
+
+/* 
+   #dock--b
+   ========================================================================== */
+
+/**
+ * Dock to the bottom.
+ */
+
+.o-dock--b { 
+	width: 100%; 
+	bottom: 0; 
+}
+
+/* 
+   #dock--l
+   ========================================================================== */
+
+/**
+ * Dock to the left.
+ */
+
+.o-dock--l { 
+	height: 100%; 
+	left: 0; 
+}
+
+/* 
+   #dock--r
+   ========================================================================== */
+
+/**
+ * Dock to the right.
+ */
+ 
+.o-dock--r { 
+	height: 100%; 
+	right: 0; 
 }
 /* 
    #box
@@ -1369,6 +1443,33 @@ label {
 		}
 
 /* 
+   #list-inline-banner
+   ========================================================================== */
+
+/**
+ * The list-inline-banner component creates the button navigation.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-inline c-list-inline-header">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.c-list-inline-buttons {
+    font-family: Bitter, sans-serif;
+	font-size: 0.875em;
+	font-weight: 300;	
+    line-height: 1.71429;	
+}
+
+.c-list-inline-buttons > li:not(:first-child) {
+	padding-left: .75rem;
+}
+
+/* 
    #s-markdown
    ========================================================================== */
 
@@ -1599,7 +1700,7 @@ label {
 }
 
 .u-fg-header {
-    color: #026C51;
+    color: #fff;
 }
 
 .u-fg-banner {

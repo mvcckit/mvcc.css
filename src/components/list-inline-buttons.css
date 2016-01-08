@@ -1,0 +1,26 @@
+/* 
+   #list-inline-banner
+   ========================================================================== */
+
+/**
+ * The list-inline-banner component creates the button navigation.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-inline c-list-inline-header">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.c-list-inline-buttons {
+    font-family: Bitter, sans-serif;
+	font-size: 0.875em;
+	font-weight: 300;	
+    line-height: 1.71429;	
+}
+
+.c-list-inline-buttons > li:not(:first-child) {
+	padding-left: .75rem;
+}

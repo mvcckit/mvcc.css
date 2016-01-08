@@ -43,6 +43,7 @@ module.exports = function(grunt) {
                   'src/components/btn-outline.css',                  
                   'src/components/btn-outline-inverse.css',                  
                   'src/components/list-inline-header.css',  
+                  'src/components/list-inline-buttons.css',                    
                /* Scopes */
                   'src/scopes/markdown.css',
                /* Trumps */

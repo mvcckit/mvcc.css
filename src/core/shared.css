@@ -49,6 +49,8 @@ dd {
 .o-label,
 .o-btn,
 .c-sect-header,
-.c-sect-footer {
+.c-sect-banner,
+.u-bg-header,
+.u-bg-banner {
 	color: #fff;
 }
