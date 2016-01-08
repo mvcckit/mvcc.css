@@ -1,0 +1,21 @@
+/* 
+   #sect-banner
+   ========================================================================== */
+
+/**
+ * The sect-banner component creates the banner section.
+ *
+ * Usage:
+ *
+ * <div class="o-sect c-sect-banner">
+ *     <div class="o-sect__body">
+ *
+ *     </div>
+ * </div>
+ */
+
+.c-sect-banner {
+	padding: 4rem 0;
+ 	text-align: center;
+ 	background-color: $bg-banner;
+}

@@ -1,0 +1,46 @@
+/* 
+   #block-tile
+   ========================================================================== */
+
+/**
+ * The block-tile component creates an apple-like tile.
+ *
+ * Example HTML:
+ *
+ * <a class="o-block c-block-tile" href="#">
+ *
+ *     <div class="o-block__image">
+ *
+ *     </div>
+ *
+ * </a>
+ */
+
+.c-block-tile {
+	margin: 2px;
+    padding: 1.5rem;
+    color: inherit;
+    opacity: .8;
+	background-color: #f2f2f2;	
+	text-decoration: none;
+}
+
+	.c-block-tile > .o-block__image {
+		font-size: 4em;
+		display: none;
+	}
+	.c-block-tile:hover {
+		background: #e8e8e8;
+	}
+	.c-block-tile:active {
+		background: #dedede;
+	}
+
+@media (min-width: 35.5em) {
+  .c-block-tile {
+    text-align: center;
+  }
+  .c-block-tile > .o-block__image {
+    display: block;
+  }
+}

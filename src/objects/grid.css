@@ -1,0 +1,27 @@
+/* 
+   #grid
+   ========================================================================== */
+
+/**
+ * The grid object is used to create a fluid grid.
+ *
+ * Usage:
+ *
+ * <div class="o-grid">
+ * 
+ *     <div class="o-grid__item"></div>
+ *     <div class="o-grid__item"></div>
+ *     <div class="o-grid__item"></div>
+ *
+ * </div>
+ */
+
+.o-grid {
+	margin-left: -1.5rem;
+}
+
+	.o-grid__item {
+		float: left;
+		padding-left: 1.5rem;
+	}
+

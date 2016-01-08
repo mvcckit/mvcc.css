@@ -1,0 +1,35 @@
+/* 
+   #list-inline-header
+   ========================================================================== */
+
+/**
+ * The list-inline header component creates the header navigation.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-inline c-list-inline-header">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.c-list-inline-header {
+	font-family: Bitter,sans-serif;
+	font-size: .875em;
+	line-height: 1.71429;
+	text-transform: uppercase;
+}
+
+	.c-list-inline-header > li:not(:first-child) {
+		padding-left: 1.5rem;
+	}
+
+		.c-list-inline-header > li > a {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		.c-list-inline-header > li > a:hover {
+			opacity: .6;
+		}

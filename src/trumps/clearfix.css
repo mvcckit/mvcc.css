@@ -1,0 +1,15 @@
+/* 
+   #clearfix
+   ========================================================================== */
+
+/**
+ * Micro clearfix.
+ */
+
+.u-cf:after,
+.o-grid:after,
+.o-tiles:after {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,81 @@
+/* 
+   #list-stack
+   ========================================================================== */
+
+/**
+ * The list-stack object creates a list without bullets or indentation.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-stack">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.o-list-stack {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* 
+   #list-stack--xs
+   ========================================================================== */
+
+/**
+ * Extra-small gutter between list items.
+ */
+
+.o-list-inline--xs > li:not(:first-child) {
+	padding-top: .375rem;
+}
+
+/* 
+   #list-stack--s
+   ========================================================================== */
+
+/**
+ * Small gutter between list items.
+ */
+
+.o-list-inline--s > li:not(:first-child) {
+	padding-top: .75rem;
+}
+
+/* 
+   #list-stack--m
+   ========================================================================== */
+
+/**
+ * Medium gutter between list items.
+ */
+
+.o-list-inline--m > li:not(:first-child) {
+   padding-top: 1.5rem;
+}
+
+/* 
+   #list-stack--l
+   ========================================================================== */
+
+/**
+ * Large gutter between list items.
+ */
+
+.o-list-inline--l > li:not(:first-child) {
+	padding-top: 3rem;
+}
+
+/* 
+   #list-stack--xl
+   ========================================================================== */
+
+/**
+ * Extra-large gutter between list items.
+ */
+
+.o-list-stack--xl > li:not(:first-child) {
+	padding-top: 6rem;
+}

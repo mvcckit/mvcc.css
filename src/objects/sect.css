@@ -1,0 +1,98 @@
+/* 
+   #sect
+   ========================================================================== */
+
+/**
+ * The sect object sections off content from the rest of the page.
+ *
+ * Usage:
+ *
+ * <div class="sect">
+ *     <div class="sect__body">
+ *
+ *     </div>
+ * </div>
+ */
+
+.o-sect__body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 80em) {
+    .o-sect__body {
+        max-width: 980px
+    }
+}
+
+/* 
+   #sect--xs
+   ========================================================================== */
+
+/**
+ * Extra-small section. 
+ */
+
+ .o-sect--xs > .o-sect__body {
+ 	padding: .375rem 0;
+ }
+
+ /* 
+   #sect--s
+   ========================================================================== */
+
+/**
+ * Small section. 
+ */
+
+.o-sect--s > .o-sect__body {
+	padding: .75rem 0;
+}
+
+ /* 
+   #sect--m
+   ========================================================================== */
+
+/**
+ * Medium section. 
+ */
+
+.o-sect--m > .o-sect__body {
+	padding: .1.5rem 0;
+}
+
+/* 
+   #sect--l
+   ========================================================================== */
+
+/**
+ * Large section.
+ */
+
+.o-sect--l > .o-sect__body {
+	padding: 3rem 0;
+}
+
+/* 
+   #sect--xl
+   ========================================================================== */
+
+/**
+ * Extra-large section.
+ */
+
+.o-sect--xl > .o-sect__body {
+	padding: 4.5rem 0;
+}
+
+/* 
+   #sect--flush
+   ========================================================================== */
+
+/**
+ * Flush section (no padding). 
+ */
+
+.o-sect--flush > .o-sect__body {
+	padding: 0;
+}

@@ -1,0 +1,59 @@
+
+
+/* 
+   #embed
+   ========================================================================== */
+
+/**
+ * The embed object is used to preserve the aspect ratio of embedded content.
+ *
+ * Usage:
+ *
+ * <div class="o-embed"></div>
+ */
+
+.o-embed {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+	.o-embed:before {
+		display: block;
+		content: "";
+		width: 100%;		
+	}
+
+/* 
+   #embed-3-1
+   ========================================================================== */
+
+.o-embed--3-1:before {
+	padding-bottom: 33.3%;
+}
+
+
+/* 
+   #embed-2-1
+   ========================================================================== */
+
+.o-embed--2-1 :before {
+	padding-bottom: 50%;
+}
+
+
+/* 
+   #embed-19-9
+   ========================================================================== */
+
+.o-embed--16-9:before {
+	padding-bottom: 56.25%;
+}
+
+/* 
+   #embed-4-3
+   ========================================================================== */
+
+.o-embed--4-3:before {
+	padding-bottom: 75%;
+}

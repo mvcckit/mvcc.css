@@ -1,0 +1,17 @@
+/* 
+   #s-markdown
+   ========================================================================== */
+
+/**
+ * The markdown scope is used to format MarkDown text. 
+ */
+
+
+.s-markdown > pre {
+	@extend .o-box;
+	background: #f5f5f5;
+}
+
+.s-markdown--code-as-box > pre > code {
+	font-family: inherit;
+}

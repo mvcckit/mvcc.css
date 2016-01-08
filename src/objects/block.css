@@ -1,0 +1,65 @@
+/* 
+   #block
+   ========================================================================== */
+
+/**
+ * The block object stacks an image on top of text.
+ *
+ * Usage:
+ *
+ * <p class="block">
+ *
+ *     <img class="block__image">
+ *
+ *     Hello world.
+ *
+ * </p>
+ */
+
+.o-block {
+	display: block;
+}
+
+	.o-block__image {
+		margin-bottom: 1.5rem;
+	}
+
+/* 
+   #block--xs
+   ========================================================================== */
+
+.o-block--xs > .o-block__image {
+	margin-bottom: .375rem; 
+}
+
+/* 
+   #block--s
+   ========================================================================== */
+
+.o-block--s > .o-block__image {
+	margin-bottom: .75rem;
+}
+
+/* 
+   #block--l
+   ========================================================================== */
+
+.o-block--l > .o-block__image {
+	margin-bottom: 3rem;
+}
+
+/* 
+   #block--xl
+   ========================================================================== */
+
+.o-block--xl > .o-block__image {
+	margin-bottom: 6rem;
+}
+
+/* 
+   #block--flush
+   ========================================================================== */
+
+.o-block--flush > .o-block__image {
+	margin-bottom: 0;
+}

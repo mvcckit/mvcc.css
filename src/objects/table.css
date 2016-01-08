@@ -1,0 +1,77 @@
+/* 
+   #table
+   ========================================================================== */
+
+/**
+ * The tables module creates common table patterns.
+ *
+ * Usage:
+ *
+ * <table class="o-table">
+ *     <thead>
+ *         <tr>
+ *             <th></th>
+ *             <th></th>
+ *             <th></th>
+ *         </tr>
+ *     </thead>
+ *     <tbody>
+ *         <tr>
+ *             <td></td>
+ *             <td></td>
+ *             <td></td>
+ *         </tr>
+ *     </tbody>
+ * </table>
+ */
+
+.o-table {
+ 	width: 100%;
+}
+	
+	.o-table th {
+		text-align: left;
+	}
+
+	.o-table th,
+	.o-table td {
+		padding: .75rem;
+	}
+
+/* 
+   #table--cells
+   ========================================================================== */
+
+.o-table--cells th,
+.o-table--cells td {
+	border: 1px solid #f5f5f5;
+}
+
+/* 
+   #table--rows
+   ========================================================================== */
+
+.o-table--rows th,
+.o-table--rows td {
+	border: 0; 		
+}
+
+.o-table--rows td {
+	border-top: 1px solid #f5f5f5;
+}
+
+/* 
+   #table--fixed
+   ========================================================================== */
+
+.o-table--fixed {
+	table-layout: fixed;
+}
+
+/* 
+   #table--zebra
+   ========================================================================== */
+
+.o-table--zebra tbody tr:nth-child(odd) td {
+	background: #f8f8f8;
+}

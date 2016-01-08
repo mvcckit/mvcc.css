@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #SHARED
+   ========================================================================== */
+
+/* 
+   Vertical Rhythm
+   ========================================================================== */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+hr,
+ul, 
+ol, 
+dl,
+blockquote, 
+p, 
+address,
+hr,
+table,
+fieldset, 
+figure,
+pre {
+	margin-bottom: 1.5rem;
+}
+
+/* 
+   Horizontal Rhythm
+   ========================================================================== */
+
+ul, 
+ol, 
+dd {
+	margin-left: 1.5rem;
+}
+
+/* 
+   Colors
+   ========================================================================== */
+
+/**
+ * These are all dark controls and require a white foreground color.
+ */
+
+.o-alert,
+.o-label,
+.o-btn,
+.c-sect-header,
+.c-sect-footer {
+	color: #fff;
+}

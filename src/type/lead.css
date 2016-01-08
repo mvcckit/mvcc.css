@@ -1,0 +1,12 @@
+/* 
+   #lead
+   ========================================================================== */
+
+/**
+ * The lead utility provides a class to create leading paragraphs.
+ */
+
+ .u-lead {
+    font-size: 1.5em;
+    line-height: 2;
+}

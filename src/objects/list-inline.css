@@ -1,0 +1,85 @@
+/* 
+   #list-inline
+   ========================================================================== */
+
+/**
+ * The list-inline object creates inline lists.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-inline">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.o-list-inline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	.o-list-inline > li {
+		display: inline-block;
+	}
+
+/* 
+   #list-inline--xs
+   ========================================================================== */
+
+/**
+ * Extra-small gutter between list items.
+ */
+
+.o-list-inline--xs > li:not(:first-child) {
+	padding-left: .375rem;
+}
+
+/* 
+   #list-inline--s
+   ========================================================================== */
+
+/**
+ * Small gutter between list items.
+ */
+
+.o-list-inline--s > li:not(:first-child) {
+	padding-left: .75rem;
+}
+
+/* 
+   #list-inline--m
+   ========================================================================== */
+
+/**
+ * Medium gutter between list items.
+ */
+
+.o-list-inline--m > li:not(:first-child) {
+   padding-left: .1.5rem;
+}
+
+/* 
+   #list-inline--l
+   ========================================================================== */
+
+/**
+ * Large gutter between list items.
+ */
+
+.o-list-inline--l > li:not(:first-child) {
+	padding-left: 3rem;
+}
+
+/* 
+   #list-inline--xl
+   ========================================================================== */
+
+/**
+ * Extra-large gutter between list items.
+ */
+
+.o-list-inline--xl > li:not(:first-child) {
+	padding-left: 6rem;
+}

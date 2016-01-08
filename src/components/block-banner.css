@@ -1,0 +1,27 @@
+/* 
+   #block-banner
+   ========================================================================== */
+
+/**
+ * The block-banner component creates the banner icon and text block.
+ *
+ * Usage:
+ *
+ * <p class="o-block c-block-banner">
+ *
+ *     <img class="block__image">
+ *
+ *     Hello world.
+ *
+ * </p>
+ */
+
+.c-block-banner {
+	text-align: center;
+}
+
+	.c-block-banner > .o-block__image {
+		margin-bottom: .75rem;
+		font-size: 3.875em;
+		line-height: 1.03226;
+	}

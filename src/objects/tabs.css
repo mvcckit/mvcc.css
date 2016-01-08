@@ -1,0 +1,77 @@
+/* 
+   #tabs
+   ========================================================================== */
+
+/**
+ * The tabs object creates equal-width navigation from a list.
+ *
+ * Usage:
+ *
+ * <ul class="o-tabs">
+ *     <li><a href="#"></a></li>
+ *     <li><a href="#"></a></li>
+ *     <li><a href="#"></a></li>
+ * </ul>
+ */
+
+.o-tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+	.o-tabs > li > a {
+		display: block;
+	}
+
+@media (min-width: 35.5em) {
+
+    .o-tabs > li {
+		display: table-cell;
+		text-align: center;
+    }
+
+}
+
+/* 
+   #tabs--xs
+   ========================================================================== */
+
+.o-tabs--xs > li > a {
+	padding: .375rem;		
+}
+
+/* 
+   #tabs--s
+   ========================================================================== */
+
+.o-tabs--s > li > a {
+	padding: .75rem;		
+}
+
+/* 
+   #tabs--m
+   ========================================================================== */
+
+.o-tabs--m > li > a {
+	padding: 1.5rem;
+}
+
+/* 
+   #tabs--l
+   ========================================================================== */
+
+.o-tabs--l > li > a {
+	padding: 3rem;
+}
+
+/* 
+   #tabs--xl
+   ========================================================================== */
+
+.o-tabs--xl > li > a {
+	padding: 4.5rem;
+}

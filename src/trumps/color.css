@@ -1,0 +1,23 @@
+/* 
+   #colors
+   ========================================================================== */
+
+/**
+ * Default theme
+ */
+
+.u-bg-header {
+    background: $bg-header; 
+}
+
+.u-bg-banner { 
+    background: $bg-banner;
+}
+
+.u-fg-header {
+    color: $bg-banner;
+}
+
+.u-fg-banner {
+    color: $bg-banner;
+}

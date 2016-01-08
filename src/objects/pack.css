@@ -1,0 +1,68 @@
+/* 
+   #pack
+   ========================================================================== */
+
+/**
+ * The pack object is used to to create equal-width layouts.
+ *
+ * Usage:
+ *
+ * <div class="o-pack">
+ * 
+ *     <div class="o-pack__item"></div>
+ *     <div class="o-pack__item"></div>
+ *     <div class="o-pack__item"></div>
+ *
+ * </div>
+ */
+
+.o-pack {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 1.5rem;
+}
+
+	.o-pack__item {
+		display: table-cell;
+	}
+
+/* 
+   #pack--xs
+   ========================================================================== */
+
+.o-pack--xs {
+	border-spacing: .375rem;
+}
+
+/* 
+   #pack--s
+   ========================================================================== */
+
+.o-pack--s {
+	border-spacing: .75rem;
+}
+
+/* 
+   #pack--l
+   ========================================================================== */
+
+.o-pack--l {
+	border-spacing: 3rem;
+}
+
+/* 
+   #pack--xl
+   ========================================================================== */
+
+.o-pack--xl {
+	border-spacing: 6rem;
+}
+
+/* 
+   #pack--flush
+   ========================================================================== */
+
+.o-pack--flush {
+	border-spacing: 0;
+}

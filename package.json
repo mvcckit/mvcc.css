@@ -1,0 +1,14 @@
+{
+  "name": "mvcc.css",
+  "description": "The IE8 polyfills used for internal Moraine Valley Community College web applications.",
+  "version": "0.1.0",
+  "author": "Eric Harms",
+  "repository": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-text-replace": "~0.4.0"    
+  },
+  "license": "MIT"
+} 

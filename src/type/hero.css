@@ -1,0 +1,12 @@
+/* 
+   #lead
+   ========================================================================== */
+
+/**
+ * The hero utility provides a class to create hero headings.
+ */
+
+ .u-hero {
+    font-size: 3.875em;
+    line-height: 1.03226;
+}

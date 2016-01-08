@@ -1,0 +1,52 @@
+/* 
+   #headings
+   ========================================================================== */
+
+/**
+ * The headings module provides additional styles for headings.
+ */
+
+h1, .u-fz-xxl {
+    font-size: 2.625em;
+    line-height: 1.14286;
+}
+
+h2, .u-fz-xl {
+    font-size: 2.25em;
+    line-height: 1.33333;
+}
+
+h3, .u-fz-l {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+h4, .u-fz-m {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h5, .u-fz-s {
+    font-size: 0.875em;
+    line-height: 1.71429;
+}
+
+h6, .u-fz-xs {
+    font-size: 0.75em;
+    line-height: 2;
+}
+
+/**
+ *  Set some rules across all headings.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Bitter, sans-serif;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}

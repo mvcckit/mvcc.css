@@ -1,0 +1,12 @@
+/* 
+   #rules
+   ========================================================================== */
+
+/**
+ * The rules module provides additional styles for horizontal rules.
+ */
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+}

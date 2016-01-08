@@ -1,0 +1,35 @@
+/* 
+   #root
+   ========================================================================== */
+
+html {
+    font-family: "Source Sans Pro", serif;
+    font-size: 0.75em;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+    overflow-y: scroll;
+    min-width: 100%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: 100%;
+}
+
+/**
+ * Medium
+ */
+
+@media (min-width: 35.5em) {
+    html {
+        font-size: 0.875em;
+    }
+}
+
+/**
+ * Large
+ */
+
+@media (min-width: 48em) {
+    html {
+        font-size: 1em;
+    }
+}

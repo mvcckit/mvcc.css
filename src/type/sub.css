@@ -1,0 +1,15 @@
+/* 
+   #sub
+   ========================================================================== */
+
+/**
+ * The sub utility provides a class to create section subheadings.
+ */
+
+ .u-sub {
+    font-size: 1.5em;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}

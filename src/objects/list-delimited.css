@@ -1,0 +1,29 @@
+/* 
+   #list-delimited
+   ========================================================================== */
+
+/**
+ * The list-delimited object creates character delimited inline lists.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-delimited">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.o-list-delimited {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	.o-list-delimited > li {
+		display: inline-block;
+	}
+
+	.o-list-delimited > li + li:before {
+		content: "\00A0" "|" "\00A0";
+	}

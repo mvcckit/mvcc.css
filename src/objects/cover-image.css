@@ -1,0 +1,18 @@
+/* 
+   #cover-image
+   ========================================================================== */
+
+/**
+ * The cover-image object is used to create cover images. 
+ *
+ * Example HTML:
+ *
+ * <div class="o-cover-image"></div>
+ */
+
+.o-cover-image {
+	background: 50% / cover no-repeat;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 980px;
+}
