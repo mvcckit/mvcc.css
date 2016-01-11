@@ -1777,6 +1777,10 @@ label {
     background: #026C51;
 }
 
+.u-bg-accent {
+	background: #F2F2F2;
+}
+
 .u-fg-header {
     color: #fff;
 }
