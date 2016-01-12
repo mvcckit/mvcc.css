@@ -28,7 +28,7 @@
  * Extra-small gutter between list items.
  */
 
-.o-list-inline--xs > li:not(:first-child) {
+.o-list-stack--xs > li:not(:first-child) {
 	padding-top: .375rem;
 }
 
@@ -40,7 +40,7 @@
  * Small gutter between list items.
  */
 
-.o-list-inline--s > li:not(:first-child) {
+.o-list-stack--s > li:not(:first-child) {
 	padding-top: .75rem;
 }
 
@@ -52,7 +52,7 @@
  * Medium gutter between list items.
  */
 
-.o-list-inline--m > li:not(:first-child) {
+.o-list-stack--m > li:not(:first-child) {
    padding-top: 1.5rem;
 }
 
@@ -64,7 +64,7 @@
  * Large gutter between list items.
  */
 
-.o-list-inline--l > li:not(:first-child) {
+.o-list-stack--l > li:not(:first-child) {
 	padding-top: 3rem;
 }
 
