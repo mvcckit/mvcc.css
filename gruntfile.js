@@ -21,6 +21,8 @@ module.exports = function(grunt) {
                   'src/type/form.css',
                /* Objects */
                   'src/objects/sect.css',
+                  'src/objects/alert.css',
+                  'src/objects/label.css',
                   'src/objects/box.css',
                   'src/objects/grid.css',
                   'src/objects/pack.css',
@@ -52,7 +54,8 @@ module.exports = function(grunt) {
                   'src/trumps/alignment.css',
                   'src/trumps/size.css',
                   'src/trumps/color.css',  
-                  'src/trumps/color.css',                   
+                  'src/trumps/color.css',  
+                  'src/trumps/directives.css',
                   'src/trumps/clearfix.css'
 				],					
 				dest: 'builds/mvcc.full.css'
