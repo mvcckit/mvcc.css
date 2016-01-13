@@ -25,4 +25,5 @@
 .c-btn-outline:active {
     background-color: $bg-btn-normal;
     color: #fff;
+    border-color: transparent;
 }

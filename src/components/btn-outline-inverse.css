@@ -24,4 +24,5 @@
 .c-btn-outline-inverse:active {
     background: #fff;
     color: #222;
+    border-color: transparent;
 }
