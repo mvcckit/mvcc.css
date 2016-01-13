@@ -1587,7 +1587,7 @@ label {
 }
 
 .c-list-inline-buttons > li:not(:first-child) {
-	padding-left: .75rem;
+	padding-left: .375rem;
 }
 
 /* 
@@ -1600,7 +1600,8 @@ label {
 
 
 .s-markdown > pre {
-	@extend .o-box;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
 	background: #f5f5f5;
 }
 
