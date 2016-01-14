@@ -50,6 +50,7 @@ module.exports = function(grunt) {
                /* Scopes */
                   'src/scopes/markdown.css',
                /* Trumps */
+                  'src/trumps/widths.css',               
                   'src/trumps/spacing.css',
                   'src/trumps/alignment.css',
                   'src/trumps/size.css',
