@@ -27,6 +27,7 @@ module.exports = function(grunt) {
                   'src/objects/grid.css',
                   'src/objects/pack.css',
                   'src/objects/tiles.css',
+                  'src/objects/columns.css',                  
                   'src/objects/tabs.css',
                   'src/objects/dock.css',
                   'src/objects/block.css',

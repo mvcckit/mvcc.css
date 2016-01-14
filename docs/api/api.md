@@ -12,6 +12,7 @@
 * [block](objects/block.md)
 * [box](objects/box.md)
 * [btn](objects/btn.md)
+* [columns](objects/columns.md)
 * [cover-image](objects/cover-image.md)
 * [dock](objects/dock.md)
 * [embed](objects/embed.md)
