@@ -479,7 +479,7 @@ label {
 
 .o-label {
 	display: inline-block;
-	padding: .75rem;
+	padding: 0 .75rem;
 	border-radius: 2px;
 	font-size: 85%;
 	text-align: center;
@@ -1008,7 +1008,7 @@ label {
 
 .o-table--cells th,
 .o-table--cells td {
-	border: 1px solid #eee;
+	border: 1px solid #ddd;
 }
 
 /* 
@@ -1021,7 +1021,7 @@ label {
 }
 
 .o-table--rows td {
-	border-top: 1px solid #eee;
+	border-top: 1px solid #ddd;
 }
 
 /* 

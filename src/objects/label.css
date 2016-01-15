@@ -12,7 +12,7 @@
 
 .o-label {
 	display: inline-block;
-	padding: .75rem;
+	padding: 0 .75rem;
 	border-radius: 2px;
 	font-size: 85%;
 	text-align: center;
