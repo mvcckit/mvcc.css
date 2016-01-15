@@ -1008,7 +1008,7 @@ label {
 
 .o-table--cells th,
 .o-table--cells td {
-	border: 1px solid #ddd;
+	border: 1px solid #eee;
 }
 
 /* 
@@ -1021,7 +1021,7 @@ label {
 }
 
 .o-table--rows td {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #eee;
 }
 
 /* 

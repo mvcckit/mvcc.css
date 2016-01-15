@@ -44,7 +44,7 @@
 
 .o-table--cells th,
 .o-table--cells td {
-	border: 1px solid #ddd;
+	border: 1px solid #eee;
 }
 
 /* 
@@ -57,7 +57,7 @@
 }
 
 .o-table--rows td {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #eee;
 }
 
 /* 
