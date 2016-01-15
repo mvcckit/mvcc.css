@@ -15,9 +15,9 @@ Once you have your environment setup, run:
 
 ## Supported Browsers
 
-! Browser            | Version |
+| Browser            | Version |
 | ------------------ | ------- |
-! Internet Explorer  | 10+     |
+| Internet Explorer  | 10+     |
 | Edge               | 12+     |
 | Firefox            | 42+     |
 | Chrome             | 45+     |
