@@ -19,4 +19,5 @@ label {
 	input[type="radio"] + label {
 		display: inline;
 		margin-bottom: 0;
+		padding-left: .375rem;
 	}
