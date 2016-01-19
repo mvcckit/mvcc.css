@@ -56,7 +56,6 @@ module.exports = function(grunt) {
                   'src/trumps/alignment.css',
                   'src/trumps/size.css',
                   'src/trumps/color.css',  
-                  'src/trumps/color.css',  
                   'src/trumps/directives.css',
                   'src/trumps/clearfix.css'
 				],					

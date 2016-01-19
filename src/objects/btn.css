@@ -24,16 +24,7 @@
     border: 1px solid transparent;
     border-radius: 2px;
     outline: 0;
-    background-color: $bg-btn-normal;
 }
-
-    .o-btn:hover {
-        background: $bg-btn-hover;
-    }
-
-    .o-btn:active {
-        background: $bg-btn-active;
-    }
 
     .o-btn::-moz-focus-inner {
         border: 0;

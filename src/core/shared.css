@@ -51,6 +51,7 @@ dd {
 .c-sect-header,
 .c-sect-banner,
 .u-bg-header,
-.u-bg-banner {
+.u-bg-banner,
+.c-btn-outline:active {
 	color: #fff;
 }

@@ -105,7 +105,8 @@ dd {
 .c-sect-header,
 .c-sect-banner,
 .u-bg-header,
-.u-bg-banner {
+.u-bg-banner,
+.c-btn-outline:active {
 	color: #fff;
 }
 
@@ -463,7 +464,6 @@ label {
 	padding: .75rem;
 	border-radius: 2px;
 	font-size: 85%;
-	background-color: #9C031;
 }
 /* 
    #label
@@ -483,7 +483,6 @@ label {
 	border-radius: 2px;
 	font-size: 85%;
 	text-align: center;
- 	background-color: #014433;
 }
 
 /* 
@@ -1374,16 +1373,7 @@ label {
     border: 1px solid transparent;
     border-radius: 2px;
     outline: 0;
-    background-color: #E02A2B;
 }
-
-    .o-btn:hover {
-        background: #E33C3D;
-    }
-
-    .o-btn:active {
-        background: #D61F20;
-    }
 
     .o-btn::-moz-focus-inner {
         border: 0;
@@ -1420,7 +1410,6 @@ label {
 .c-sect-header {
  	padding: 0.75rem 0;
  	text-align: center;
- 	background-color: #014433;
 }
 /* 
    #sect-banner
@@ -1441,7 +1430,6 @@ label {
 .c-sect-banner {
 	padding: 4rem 0;
  	text-align: center;
- 	background-color: #026C51;
 }
 /* 
    #block-banner
@@ -1541,8 +1529,6 @@ label {
 }
 
 .c-btn-outline:active {
-    background-color: #E02A2B;
-    color: #fff;
     border-color: transparent;
 }
 /* 
@@ -1888,33 +1874,6 @@ label {
 
 .u-h-header {
     height: 2.875rem;
-}
-/* 
-   #colors
-   ========================================================================== */
-
-/**
- * Default theme
- */
-
-.u-bg-header {
-    background: #014433; 
-}
-
-.u-bg-banner { 
-    background: #026C51;
-}
-
-.u-bg-accent {
-	background: #F2F2F2;
-}
-
-.u-fg-header {
-    color: #fff;
-}
-
-.u-fg-banner {
-    color: #026C51;
 }
 /* 
    #mvcc.js

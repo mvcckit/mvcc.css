@@ -4,8 +4,9 @@
 
 The stylesheet used for internal Moraine Valley Community College web applications. It is still under development.
 
+> Note: You will need to include a theme stylesheet for this to work.
+
 * [API Documentation](docs/api/api.md)
-* [Change Log](CHANGELOG.md)
 
 ## Building mvcc.css
 
