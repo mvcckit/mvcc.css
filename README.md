@@ -2,7 +2,7 @@
 
 # mvcc.css
 
-The stylesheet used for internal Moraine Valley Community College web applications. It is still under development.
+The stylesheet used for internal Moraine Valley Community College web applications. Please note that I opted out of using SCSS to make it easier for out development team.
 
 > Note: You will need to include a theme stylesheet for this to work.
 
