@@ -214,7 +214,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Bitter, sans-serif;
+    font-family: 'Bitter', sans-serif;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 }
@@ -254,7 +254,7 @@ h6 {
  */
 
  .u-sub {
- 	font-family: "Source Sans Pro", serif;
+    font-family: 'Bitter', sans-serif; 	
     font-size: 1.5em;
     font-weight: 300;
     line-height: 2;
